@@ -1,0 +1,166 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-color: #EFEA5A;
+    max-height: 100vh;
+    overflow: hidden;
+
+}
+
+.top{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    padding: 1.25rem;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius:2em;
+    background-color: #0ACDFF;
+    color:#F7F5FB;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    
+}
+.top a{
+    text-decoration: none;
+    color:#F7F5FB;
+    font-family: Poppins;
+    font-size: 2rem;
+    transition: color 100ms;
+}
+.top a:hover{
+    color:grey;
+}
+section{
+    height: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap:20rem;
+    z-index: 2;
+}
+.orange{
+    height: 30rem;
+    width: 50rem;
+    background-color: #F29E4C;
+    position:absolute;
+    bottom:5vh;
+    right:2vw;
+    border-radius: 10%;
+    
+    z-index: 1;
+}
+.img{
+   height: 90vh;
+   background: no-repeat;
+   background-image: url(WhatsApp_Image_2022-10-15_at_7.29.19_PM-removebg-preview.png);
+   background-repeat:none;
+   column-span: 2;
+   z-index: 2;
+   
+}
+.hi{
+    padding-top: 8rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+    color:#F7F5FB;
+    height: 20rem;
+    width:30rem;
+    border-radius: 20px;
+    background-color: #084887;
+    position: relative;
+    left:20vw;
+    z-index: 2;
+
+}
+.follow{
+    padding-top: 4rem;
+    position: relative;
+    left:20vw;
+    height: 10rem;
+    width: 16rem;
+    margin-top:2rem;
+    background-color: rgb(67, 218, 22);
+    border-radius: 2rem;
+    text-align: center;
+    z-index: 2;
+}
+.follow a{
+    font-family: Poppins;
+    font-size:2rem;
+    color:#F7F5FB;
+    text-decoration: none;
+
+}
+.follow a:hover{
+    color:grey;
+
+}
+.contain{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse{
+    z-index: 1;
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    bottom:-10vh;
+    left:-5vw;
+    background-color: #0ACDFF;
+    border-radius: 50%;
+
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    height: 75vh;
+    width: 50vw;
+    border-radius: 10%;
+    background-color: #F29E4C;
+}
+.img2{
+    position:absolute;
+    right: 0vw;
+    height: 100vh;
+    width: 30vw;
+    background-image: url(WhatsApp_Image_2022-10-15_at_7.27.39_PM-removebg-preview.png);
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    z-index: 2;
+}
+.greenbox{
+    background-color: rgb(67, 218, 22);
+    position: absolute;
+    right:5vw;
+    bottom:0vh;
+    height:80vh ;
+    width:30vw;
+    border-radius: 10%;
+    z-index: 1;
+}
